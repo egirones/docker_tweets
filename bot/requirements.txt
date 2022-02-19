@@ -1,0 +1,4 @@
+sqlalchemy
+psycopg2-binary
+pyjokes #need to go out, just trying the format
+requests
