@@ -21,16 +21,3 @@ for s in sqlquery:
     data = {'text': text}
 #    requests.post(url = webhook_url, json = data)
     time.sleep(5)
-
-
-#bot_text =  pg.execute("SELECT text FROM TWEETS ORDER BY ID DESC LIMIT 1;")
-#bot_sent =  pg.execute("SELECT sentiment FROM TWEETS ORDER BY ID DESC LIMIT 1;")
-
-#print(bot_text)
-#print(bot_sent)
-#webhook_url = 'https://hooks.slack.com/services/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'
-
-#data = "Bot from Karlsruhe!"
-#requests.post(url = webhook_url, json = data)#
-
-
